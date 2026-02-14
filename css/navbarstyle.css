@@ -1,7 +1,14 @@
 nav{
-    height: 10rem;
-    background: wheat;
+    height: 5rem;
+    width: 100%;
+    background: #57C785;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    position: fixed;
 }
 .leftContainer p{
     font-family: 'Pacifico',cursive;
+    margin-bottom: 0rem;
 }

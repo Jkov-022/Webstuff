@@ -11,11 +11,36 @@
 
     <link href="css/style.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/navbarstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
 </head>
 <body class="landingPage">
     <?php include('guat/navbar.php') ?>
 
-
+    <section class="main-section">
+        <div class="leftHeroSection">
+            <div class="heroHeader">
+                <h1>Sylvia's</h1>
+                <h1>Event Place &</h1>
+                <h1>Resto Bar</h1>
+                <span class="border-bottom"></span>
+            </div>
+            <div class="heroBottom">
+                <p>Offers Baptismal, Birthday, Debut, Weddings, Corporate Venue, etc.
+                </p>
+            </div>
+            <div class="bottombtn">
+                <button class="btnLogin btn">
+                    <a href="login.php">Log In</a>
+                </button>
+            </div>
+        </div>
+        <div class="rightHeroSection shadow" >
+            <img src="image/488649360_2168334760293743_4169895936572549667_n.jpg" class="img-fluid " alt="">
+        </div>
+        
+    </section>
     
 </body>
 </html>
