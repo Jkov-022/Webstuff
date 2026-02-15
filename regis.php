@@ -10,15 +10,52 @@
 
     <!-- <link href="css/style.css" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="css/loginstyle.css"> -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/regiscss.css">
 
     <link rel="stylesheet" href="css/navbarstyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("inputPassword4");
+            var y = document.getElementById("inputPassword5");
+            if (x.type === "password" && y.type === "password") {
+                y.type = "text";
+                x.type = "text";
+            } else {
+                y.type = "password";
+                x.type = "password";
+            }
+        }
+    </script>
 </head>
 <body class="regisPage">
     <?php include('gu/navbar.php') ?>
-    <section class="">
-        
+    <section class="regisSection">
+        <form class="row g-3 border shadow">
+            <div class="col-md-12">
+                <label for="validationDefault01" class="form-label">Email</label>
+                <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+            </div>
+            <div class="col-md-12">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-12">
+                <label for="inputPassword4" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="inputPassword5">
+            </div>
+            <div class="mb-1 form-check">
+                <input type="checkbox" onclick="myFunction()" class="form-check-input" id="exampleCheck1 togglePassword">
+                <label class="form-check-label" for="exampleCheck1">Show Password</label>
+            </div>
+            <div class="input-group mb-1 n-margin">
+                <input type="file" class="form-control" id="inputGroupFile02">
+            </div>
+            <div class="col-3 n-margin">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+        </form>
     </section>
 </body>
 </html>
