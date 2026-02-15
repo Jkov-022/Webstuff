@@ -16,9 +16,9 @@
 
 </head>
 <body class="landingPage">
-    <?php include('guat/navbar.php') ?>
+    <?php include('gu/navbar.php') ?>
 
-    <section class="main-section">
+    <section class="main-section jumbotron">
         <div class="leftHeroSection">
             <div class="heroHeader">
                 <h1>Sylvia's</h1>
@@ -26,7 +26,7 @@
                 <h1>Resto Bar</h1>
                 <span class="border-bottom"></span>
             </div>
-            <div class="heroBottom">
+            <div class="heroBottom my-4">
                 <p>Offers Baptismal, Birthday, Debut, Weddings, Corporate Venue, etc.
                 </p>
             </div>
