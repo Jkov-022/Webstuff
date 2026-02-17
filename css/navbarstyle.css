@@ -9,7 +9,7 @@ nav{
     top: 0;
     position: fixed;
     z-index: 100000000;
-    color: white;
+    /* color: white; */
 }
 .leftContainer p{
     font-family: 'Pacifico',cursive;

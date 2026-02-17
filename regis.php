@@ -35,7 +35,7 @@
         <form class="row g-3 border shadow">
             <div class="col-md-12">
                 <label for="validationDefault01" class="form-label">Email</label>
-                <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+                <input type="text" class="form-control" id="validationDefault01">
             </div>
             <div class="col-md-12">
                 <label for="inputPassword4" class="form-label">Password</label>
@@ -54,7 +54,7 @@
                 
                 <input type="file" class="form-control" id="inputGroupFile02">
             </div>
-            <div class="col-3 n-margin">
+            <div class="col n-margin">
                 <a href="login.php" class="btn btn-primary">Sign in</a>
             </div>
         </form>

@@ -30,16 +30,17 @@
 .headerContainer{
     display: flex;
     flex-direction: column;
-    margin-top: 10rem;
+    margin-top: 11rem;
     margin-left: -10rem;
 }   
 .headerContainer h1{
     color: white;
     font-size: 5rem;
 }
-.buttonContainer{
+.quoteContainer{
     display: flex;
     align-items: start;
+    /* width: 100%; */
 }
 .iconFire{
     width: auto;
@@ -55,6 +56,26 @@
     list-style: none;
 }
 
+@media(max-width: 576px){
+    .headerContainer h1{
+        font-size: 2.5rem;
+    }
+    .headerContainer{
+        margin-left: 0rem;
+    }
+    .quote h5{
+        font-size: 1rem;
+    }
+    .packageContainer{
+        display: block;
+    }
+    .packageContainer .card{
+        box-shadow: none !important;
+    }
+    .card ul{
+        padding: 1rem;
+    }
+}
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
 

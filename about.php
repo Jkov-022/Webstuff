@@ -25,8 +25,8 @@
                     <h1>Event Place &</h1>
                     <h1>Resto Bar</h1>
                 </div>
-                <div class="buttonContainer">
-                    <div class="border-bottom">
+                <div class="quoteContainer">
+                    <div class="quote">
                        <h5 class="" style="color: white;">Where memories are made</h5> 
                     </div>
                     
@@ -69,7 +69,7 @@
                                 <p>For exceeding: ₱270 / head</p>
                                 <p>Use of venue only for 6 hours</p>
                                 <div class="container">
-                                    <div class="row" style="gap:1rem;">
+                                    <div class="row packageContainer" style="gap:1rem;">
                                         <div class="card col shadow">
                                             
                                             <div class="card-header">Food</div>
@@ -177,7 +177,7 @@
                                     </div>       
                                 </div>
                                 <div class="card-header" style="color: white;">Food</div>
-                                <div class="row" style="color: white;">
+                                <div class="row packageContainer" style="color: white;">
                                     <div class="col">
                                         <h2>BAR CHOW</h2>
                                         <ul>
@@ -260,9 +260,6 @@
                     </div>
                 </div>
         </section>
-        <footer>
-
-        </footer> 
     </div> 
 </body>
 </html>

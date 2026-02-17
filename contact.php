@@ -20,7 +20,7 @@
     <?php include('gu/navbar.php') ?>
     <section class="contactSection">
         <form class="border shadow">
-            <div class="row">
+            <div class="">
                 <div class="col"> 
                     <label>Name</label>
                     <input type="text" class="form-control" placeholder="Sylvia's Event Place and Restobar" aria-label="First name" disabled>
