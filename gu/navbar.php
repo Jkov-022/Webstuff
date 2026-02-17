@@ -3,7 +3,7 @@
         <p>Sylvia's</p>
     </div>
     <div class="rightContainer">
-        <button class="btn"><strong>About</strong></button>
-        <button class="btn"><strong>Contact</strong></button>
+        <a href="about.php" class="btn">About</a>
+        <a href="contact.php" class="btn">Contact</a>
     </div>
 </nav>

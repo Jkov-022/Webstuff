@@ -1,12 +1,15 @@
 nav{
     height: 5rem;
     width: 100%;
-    background: #57C785;
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 3rem;
+    top: 0;
     position: fixed;
+    z-index: 100000000;
+    color: white;
 }
 .leftContainer p{
     font-family: 'Pacifico',cursive;

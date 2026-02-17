@@ -49,11 +49,13 @@
                 <input type="checkbox" onclick="myFunction()" class="form-check-input" id="exampleCheck1 togglePassword">
                 <label class="form-check-label" for="exampleCheck1">Show Password</label>
             </div>
+            <label for="">Choose your Profile</label>
             <div class="input-group mb-1 n-margin">
+                
                 <input type="file" class="form-control" id="inputGroupFile02">
             </div>
             <div class="col-3 n-margin">
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <a href="login.php" class="btn btn-primary">Sign in</a>
             </div>
         </form>
     </section>
