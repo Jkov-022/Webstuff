@@ -6,7 +6,6 @@
     <title>About</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
     <!-- <link href="css/style.css" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="css/loginstyle.css"> -->
@@ -27,7 +26,7 @@
                 </div>
                 <div class="quoteContainer">
                     <div class="quote">
-                       <h5 class="" style="color: white;">Where memories are made</h5> 
+                       <h5 class="">Where memories are made</h5> 
                     </div>
                     
                 </div>
@@ -35,7 +34,7 @@
         </header>
         <section class="aboutSection">
                 <div class="aboutSecHeader" style="justify-content:center;">
-                    <h1 style="color: white;">About Us</h1>
+                    <h1>About Us</h1>
                 </div>
                 <div class="container">
                     <div class="col mt-5">
@@ -103,7 +102,7 @@
                                 </div>
                             </div>
                             <div class="card-footer text-body-secondary">
-                                <div class="card-header" style="color: white;">Menu</div>
+                                <div class="card-header">Menu</div>
                                 <div class="row" style="margin: 1rem 0;">
                                     <div class="col-sm-6">
                                         <div class="card">
@@ -176,8 +175,8 @@
                                         </div>
                                     </div>       
                                 </div>
-                                <div class="card-header" style="color: white;">Food</div>
-                                <div class="row packageContainer" style="color: white;">
+                                <div class="card-header">Food</div>
+                                <div class="row packageContainer">
                                     <div class="col">
                                         <h2>BAR CHOW</h2>
                                         <ul>
@@ -260,6 +259,7 @@
                     </div>
                 </div>
         </section>
-    </div> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
